@@ -1,0 +1,57 @@
+.bottom-wrapper{
+    display: grid;
+    justify-content: center;
+    height: 500px;
+    background-color: #000008;
+    color: #cbcbcb;
+    padding: 15px 100px;
+}
+.bottom-wrapper > .banner-image img{
+    width:250px;
+    height:250px;
+    padding-left: 100px;
+    /* filter: brightness(50%); */
+    filter: opacity(0.5);
+}
+
+.bottom-wrapper > .contact-hours-wrapper-bottom{
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.7em;
+}
+.bottom-wrapper > .links-wrapper-bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+.bottom-wrapper > .links-wrapper-bottom a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+.bottom-wrapper > .links-wrapper-bottom a:hover{
+    color: goldenrod;
+    letter-spacing: 1px;
+}
+
+.bottom-wrapper > .icon-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-wrapper > .icon-wrapper a{
+    color: white;
+    transition: 1s;
+}
+
+.bottom-wrapper > .icon-wrapper a:hover{
+    color: goldenrod;
+}
+
+.copywrite-wrapper{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.5em;
+}

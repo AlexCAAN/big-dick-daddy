@@ -1,0 +1,33 @@
+/* helper styles */
+.spacer50{
+    height: 50px;
+    width: 100%;
+}
+
+.spacer10{
+    height: 10px;
+    width: 100%;
+}
+
+.anchor-link {
+    text-decoration: none;
+}
+
+.anchor-link:focus{
+    outline: none;
+}
+
+/* .anchor-link h1::before{
+    content: "im before -"
+}
+
+.anchor-link h1::after{
+    content: "- im after";
+} */
+
+.anchor-link h1::after{
+    font-family: "Font Awesome 5 free";
+    content: " \f0c1";
+    font-weight: 900;
+    font-size: 0.6em;
+}

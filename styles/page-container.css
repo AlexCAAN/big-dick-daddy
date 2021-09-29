@@ -1,0 +1,21 @@
+.page-container > .content-wrapper > #portrait{
+    width: 350px;
+    margin: 5px 50px 20px 0px;
+    float: left;
+    border: 2px solid #1b1c2b;
+}
+
+.page-container > .content-wrapper p{
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.page-container{
+    display: flex;
+    justify-content:center ;   
+}
+
+.page-container > .content-wrapper{
+    width: 1000px;
+
+}
